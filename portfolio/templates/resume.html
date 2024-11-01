@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<meta name="description" content="OLoruntobi Grace Ayomide porfolio and a resume file as a software engineer/
+		 full-stack web-developer."/>
+		<meta name="Keywords" content="full-stack web developer, git and github expert, front-end programmer,
+		female software engineer, back-end wed developer, female web-developer in nigeria, female web-developer in lagos,
+		young programmer, young web-developer, young female developer in nigeria. "/>
+		<meta name="author" content="Oloruntobi Grace Ayomide"/>
+		<meta property="og:title" content="Oloruntobi Grace Resume"/>
+		<meta property="og:description" content="Full-stack Web-developer"/>
+		<meta property="0g:image" content="{{url_for('static', filename='images/logo.png')}}"/>
+		<meta property="0g:url" content="{{url_for('resume')}}"/>
+		<meta name="twitter:title" content="Oloruntobi Grace Ayomide Resume"/>
+		<meta name="twitter:description" content="Full-stack Web-developer"/>
+		<meta name="twitter:image" content="{{url_for('static', filename='images/logo.png')}}"/>
+		<meta name="twitter:url" content="{{url_for('resume')}}"/>
+		<meta name="locale" content="US-en"/>
+
+        <title>My Resume - Oloruntobi Grace Ayomide</title>
+
+
+        <!-- fonts / external links -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,
+		100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,
+		100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap/css/bootstrap.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='fa/css/all.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/resume.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/media.css')}}">
+        
+
+
+        <!-- favicons  -->
+
+   
+        <link rel="apple-touch-icon" sizes="57x57" href="/static/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/static/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/static/images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+	</head>
+
+
+    <body>
+
+        <div class="container resume-body">
+
+            
+            <div class="row">
+
+                <div class="col-md-4 bh">
+                    <a href="{{url_for('home')}}" class="back-home">Back to Home</a>
+                </div>
+
+                <div class="col-md-8 social-links">
+                    <div class="themes">
+                        <span id="rainbow-circle"><i class="fa-solid fa-circle"></i></span>
+                        <span id="black-white-circle"><i class="fa-solid fa-circle"></i></span>
+
+                    </div>
+                    <div>
+                        <a href="https://github.com/oloruntobi-grace-ayomide" target="_blank"><i class="devicon-github-original"></i></a>
+                        <a href="https://www.linkedin.com/in/grace-oloruntobi-ab3a1a263" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+                        <a href="https://drive.google.com/file/d/1j3b38KWeQQa2kY4iBZzDogA1FEiF7a_R/view?usp=drive_link" target="_blank"><i class="fa-regular fa-circle-down"></i> Download</a>
+                    </div>
+                   
+                </div>
+
+                
+            </div>
+
+
+            <div class="row content-body">
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="row">
+                        
+                        <div class="col-md-12 col-6 profile-img">
+                            <img src="{{url_for('static', filename='images/mypic.png')}}"
+                             alt="A image of me" class="image-fluid">
+                        </div>
+
+
+                        <div class="col-md-12  col-6 contact-info">
+
+                            <div>
+                                <h2>Contacts</h2>
+                                <p><i class="fa-solid fa-phone-volume"></i><a href="https://wa.me/2348068345502" target="_blank">
+                                    <title>Call or Whatsapp Grace</title>
+                                    08068345502</a>
+                                </p>
+                                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:oloruntobiga@gmail.com" target="_blank">oloruntobiga@gmail.com</a></p>
+                                <p><i class="fa-solid fa-location-dot"></i> Ikeja, Lagos Nigeria</p>
+                                <p><i class="fa-solid fa-globe"></i> <a href="#" target="_blank">graceayomide.com</a></p>
+                                <a href="https://github.com/oloruntobi-grace-ayomide" target="_blank"><i class="devicon-github-original"></i></a>
+                                <a href="https://www.linkedin.com/in/grace-oloruntobi-ab3a1a263" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-12 col-12 skills-info">
+                            <h2>Skills</h2>
+                            <div class="structure-resize">
+                                <div>
+                                    <p>Core Technologies</p>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript + ES6</li>
+                                        <li>Jquery</li>
+                                        <li>Bootstrap</li>
+                                        <li>React</li>
+                                        <li>Python (Flask)</li>
+                                        <li>MySQL</li>
+                                        <li>MySQL Workbench</li>
+                                        <li>DBMongo</li>
+                                        <li>RESTFUL API</li>
+                                    </ul>
+                                    </div>
+                                    
+                                    <div>
+                                        <p>Others</p>
+                                    <ul>
+                                        <li>Responsive Design</li>
+                                        <li>Git</li>
+                                        <li>GitHub</li>
+                                        <li>Slack</li>
+                                        <li>Trello</li>
+                                        <li>Software Testing</li>
+                                        <li>SEO Optimization</li>
+                                        <li>Good Communucation Skill</li>
+                                    </ul>
+                                    </div>
+                            </div>
+                           
+                            
+                        </div>
+
+                        
+                        
+                    </div>
+                    
+                </div>
+
+
+
+                <div class="col-lg-9 col-md-8 col-12">
+
+                    <div class="row import-info">
+
+                        <div class="col-12 personal-sumary">
+
+                            <h1>Oloruntobi Grace Ayomide</h1>
+                            <h2>Full-Stack Web-Developer</h2>
+
+                    
+                            <p>
+                                Onboarding full-stack web-developer with a strong foundation in Python, Flask, 
+                                JavaScript, and responsive web design. With experience building dynamic web 
+                                applications, including a platform connecting handymen to users, I specialize in 
+                                creating intuitive, human-centered interfaces and functional back-end systems. 
+                                Self-taught and continuously upskilling through bootcamp training, I'm eager to 
+                                apply my skills to real-world challenges. Proficient in technologies like MySQL, 
+                                MongoDB, REST APIs, and GitHub, I am ready to contribute to innovative projects and
+                                continue growing as a developer.
+
+
+                            </p>
+                        </div>
+
+                        <hr class="divider">
+
+                        <div class="col-12 education">
+                            <h2>Education</h2>
+        
+                            <ul>
+                                <li><strong>Bootcamp: </strong> Moat Academy for Developers, Ikeja, Lagos State 
+                                    June - September 2024
+                                </li>
+        
+                                <li><strong>Online Course: </strong> Full-Stack Web Development, Udemy
+                                    2023 - 2024
+                                </li>
+        
+                                <li>
+                                   <strong>Secondary Education:</strong> 
+                                    <ul class="sub-ul">
+                                        <li>Prof Ogunlesi Model College, Ogun State
+                                            2019 - 2021
+                                        </li>
+                                        <li>Ogijo Community High School, Ogun State
+                                            2017 - 2019
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><strong>Primary Education: </strong>St. Jonathan Nursery and Primary School, Ekiti State
+                                    2009 - 2014
+                                </li>
+                            </ul>
+        
+        
+                        </div>
+
+
+
+                        <div class="col-12 certification">
+                            <h2>Certifications</h2>
+
+                            <p>Full-Stack Web-Developer Certification        - <strong> Moat Academy</strong></p>
+
+                        </div>
+
+
+
+                        <div class="col-12 experience">
+                            <h2>Experience</h2>
+                            <p>As a budding developer, I've dedicated myself to building impactful web projects,
+                                both for personal growth and learning. Each project has been an opportunity to expand
+                                my skills, solve real-world problems, and refine my approach to clean, 
+                                effective code.
+                            </p>
+                        </div>
+
+
+                        <div class="col-12 projects">
+                            <h2>Projects</h2>
+
+                            <div>
+                                <a href="https://myhandyman.pythonanywhere.com/handyman/home/" target="_blank"><h4>Handyman</h4></a>
+        
+                                <p>
+                                    A web-based application designed to connect clients with skilled handymen for various home services. 
+                                    The platform enables users to search for handymen based on their preferred services, view profiles, 
+                                    and directly contact service providers. Built using Flask for back-end development, the system features 
+                                    dynamic content rendering through AJAX, database management with MySQL, 
+                                    and a rating and review system for clients to provide feedback. The platform focuses on creating a 
+                                    user-friendly experience while offering handymen a flexible, self-managed profile system.
+
+                                    <a href="https://myhandyman.pythonanywhere.com/handyman/home/" target="_blank">myhandyman.pythonanywhere.com</a>
+                                </p>
+                                   
+        
+                            </div>
+        
+                        </div>
+
+
+                        <div class="col-12 refs">
+                            <h2>Reference</h2>
+
+                            <div class="row ref-body">
+                                <div class="col-md-6 col-12">
+                                    <p><strong>Mr Oyebola</strong></p>
+                                    <p>Moat Academy / CEO</p>
+                                    <p><i class="fa-solid fa-phone-volume"></i> +234 7012621235</p>
+                                    <p><i class="fa-solid fa-envelope"></i> training@moatacademy.com</p>
+                                    
+                                </div>
+    
+                                <div class="col-md-6 col-12">
+                                    <p><strong>Mr Charles Orji</strong></p>
+                                    <p>Collegue</p>
+                                    <p><i class="fa-solid fa-phone-volume"></i> +234 9091177778</p>
+                                    <p><i class="fa-solid fa-envelope"></i> bezalelcharles@gmail.com</p>
+                                   
+                                </div>
+                            </div>
+
+                           
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col download-link">
+                    <a href="https://drive.google.com/file/d/1j3b38KWeQQa2kY4iBZzDogA1FEiF7a_R/view?usp=drive_link" target="_blank">Download</a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <script>
+            const darkThemeButton = document.getElementById('black-white-circle');
+            const normalThemeButton = document.getElementById('rainbow-circle')
+
+           
+            darkThemeButton.addEventListener('click', () => {
+                document.body.classList.add('resume-dark');
+            });
+
+
+            normalThemeButton.addEventListener('click', () =>{
+                document.body.classList.remove('resume-dark')
+            })
+
+        </script>
+        
+    </body>
+
+
+</html>

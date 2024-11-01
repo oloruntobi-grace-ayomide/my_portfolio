@@ -1,0 +1,458 @@
+@media screen and (max-width:1280px) and (min-width:1024px){
+
+.sections-header{
+	padding:20px 20px 30px 20px;
+}
+
+.navbar-expand-md .navi-links{
+	margin-right:5%;
+}
+
+.my-versions{
+    width:40%;
+}
+
+.my-story{
+    width:60%;
+}
+
+.my-story p{
+    font-size:17px;
+}
+     
+.ref-body div{
+	width:50%
+}
+
+    
+}
+    
+
+@media screen and (max-width:1024px) and (min-width:768px){
+
+.navbar-expand-md .container-fluid{
+	padding:0px 0px 10px 5%;
+}
+
+.navbar-expand-md .navi-links{
+	margin-right:3%;
+}
+
+ul.navbar-nav li a{
+	font-size:20px;
+}
+
+ul.navbar-nav li a:hover{
+	font-size:20px;
+}
+
+
+.hero{
+	margin-top:18%;
+	margin-left:30px;
+}
+
+.introduction span{
+	font-size:30px;
+}
+
+h1#name{
+	font-size:40px;
+}
+
+p#intro{
+	width:95%;
+	font-size:19px;
+}
+
+.my-versions{
+	width:45%;
+	margin-top:-15%;
+}
+
+.my-story{
+	width:55%;
+}
+
+.skill-showcase{
+	
+	.row{
+		gap:5px;
+	}
+}
+
+.skill-expertise{
+	height:500px;
+	padding-top:30px;
+}
+
+canva#skillsPieChart{
+	width:150px !important;
+	height:150px !important;
+}
+
+.techs-body{
+	text-align:left !important;
+}
+
+.form-body form input,textarea{
+	width:100% !important;
+} 
+
+.form-body form button{
+	padding:8px 6px;
+	font-size:16px;
+}
+
+.resume-body{
+	margin-top:2% ;
+}
+
+.resume-body h1{
+	font-size:38px;
+}
+
+.resume-body h2{
+	font-size:28px;
+}
+
+.resume-body p{
+    font-size:16px;
+	width:100%;
+}
+
+.content-body{
+	margin-top:20px;
+	margin-left:0.2%;
+	
+}
+
+.contact-info{
+	margin-top:20px;
+}
+
+.contact-info a{
+	font-size:15px;
+    color:blue;
+}
+
+.ref-body div{
+	width:50%
+}
+
+.ref-body div p{
+	font-size:14px;
+}
+
+}
+
+
+@media screen and (max-width:949px) {
+
+.my-versions{
+	width:100%;
+	margin-top:10px;
+	padding-bottom:15px;
+}
+
+.my-story{
+	width:100%;
+	text-align: center;
+}
+
+.project{
+	width:100%;
+	text-align:center;
+}
+
+.project .div-1{
+	text-align:center !important;
+}
+
+.project .div-2{
+	width:100%;
+	margin-left:0%;
+}
+
+.project h2{
+	padding:0px 15px 0px 0px;
+	text-align:center;
+}
+
+.project p{
+	text-align:center;
+	word-spacing:1px;
+	line-height: 1.4;
+  	letter-spacing:1px;
+    padding-bottom:10px;
+    width:97%;
+    margin:auto !important;
+}
+
+.techs-body{
+	text-align: center !important;
+}
+
+.form-body,.info-body{
+	padding-top:30px;
+    width:100%;
+    text-align: center;
+}
+
+.form-body form{
+    width:96%;
+    margin:auto !important;
+}
+
+.form-body form input,textarea{
+	width:100% !important;
+	margin-bottom:20px;
+	padding:10px 5px;
+	text-align: left;
+	border-radius:0px !important;
+} 
+
+.info-body{
+	padding-left:10px;
+    padding-right:10px;
+}
+}
+
+
+@media screen and (max-width:767px){
+
+.navbar-toggler{
+	border:none !important;
+	color:#fff !important;
+	border-radius:0px !important;
+	margin-right:5%;
+}
+
+.navbar-toggler i{
+	font-size:30px;
+}
+
+.navbar-expand-md .navi-links{
+	width:100%;
+	margin-right:10%;
+	padding-left:20%;
+	position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+	background-color:var(--bg-links);
+	z-index: 1000000000000000;
+}
+
+.parent-div {
+	background-attachment: scroll;
+}
+
+.themes{
+	margin-right:30px;
+}
+
+.content-body{
+	text-align:center !important;
+	margin-left:auto !important;
+	
+}
+
+.contact-info{
+	margin-top:20px;
+	text-align: left !important;
+}
+
+.profile-img{
+	margin:auto !important;
+}
+
+.skills-info{
+	margin-top:50px;
+	text-align: center;
+
+}
+
+.structure-resize{
+	display: flex;
+	justify-content: center;
+}
+
+.contact-info a{
+    font-size:12px;
+}
+
+.ref-body div{
+	width:100%
+}
+}
+
+
+@media screen and (max-width:476px){
+
+.contact-info{
+	width:100% !important;
+	margin:auto !important;
+}
+
+.contact-info h2{
+	text-align: center;
+}
+
+.contact-info div, p{
+	width:90%;
+	margin:auto !important;
+}
+	
+.themes{
+	margin-right:10px;;
+}	
+}
+
+
+@media screen and (max-width:767px) and (min-width:481px) {
+
+.hero{
+	margin-top:30%;
+	margin-left:3px;
+}
+
+.introduction span{
+	font-size:25px;
+}
+
+h1#name{
+	font-size:25px;
+}
+
+h2#title{
+	font-size:20px;
+}
+
+p#intro{
+	width:98%;
+	font-size:17px;
+}
+
+.introduction a{
+	margin-right:20px;
+	margin-top:20px;
+}
+	
+.sections-header h1{
+	font-size:40px;
+}
+
+.my-story p{
+	width:95%;
+	margin:auto !important;
+}
+
+.skill-showcase{
+	padding-top:50px;
+	i{
+		font-size:35px !important;
+	}
+
+	img{
+		width:35px;
+
+	}
+
+	.row{
+		align-items:center !important;
+	}
+}
+
+.skill-expertise{
+	min-height:500px;
+	padding-bottom:30px;
+}
+
+.skill-expertise h3{
+	padding-top:15px;
+	padding-bottom:0px;
+}
+
+.tech-used i{
+	font-size:35px !important;
+}
+
+.back-to-body{
+	padding-top:30px;
+	text-align: center;
+}
+
+.back-to-body a{
+	font-size:20px;
+}
+
+}
+
+
+@media screen and (max-width:480px){
+
+.hero{
+	margin-top:13%;
+	margin-left:0px;
+}
+
+.introduction{
+	text-align: center;
+	padding-bottom:15px;
+}
+
+.introduction span{
+	font-size:20px;
+}
+
+h1#name{
+	font-size:22px;
+}
+
+h2#title{
+	font-size:18px;
+}
+
+p#intro{
+	width:100%;
+	font-size:16px;
+}
+
+.introduction a{
+	display: block;
+	margin-right:auto;
+}
+
+.sections-header h1{
+	font-size:35px;
+}
+
+.skills-parent .sections-header{
+	padding:0px 3px;
+}
+
+.skills-parent .sections-header h1{
+	font-size:28px;
+}
+
+.skill-expertise{
+	min-height:500px;
+	padding-bottom:30px;
+}
+
+.tech-used i{
+	font-size:30px !important;
+}
+
+.project img{
+	width:300px;
+}
+
+.form-body form button{
+	padding:8px 5px;
+	font-size:18px;
+	width:100%;
+}
+
+}

@@ -1,0 +1,275 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-size:16px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+:root{
+    --bg-color:#fff;
+	--resume-background:#F0F0F0;
+	--resume-header:#006D77;
+    --resume-color:rgba(71, 71, 71, 1.60);
+    --icon-color:rgba(71, 71, 71, 0.9);
+    --style-type:none;
+    --border-color:#006D77 solid 2px;
+    --divider-color:#006D77;
+	--home-bg:#006D77;
+    --list-style-image1:url(/static/images/spark.png);
+    --list-style-image2:url(/static/images/spar.png);
+}
+
+.resume-dark{
+    --bg-color:#000;
+	--resume-background:#fff;
+	--resume-header:#000;
+    --resume-color:rgba(71, 71, 71, 1.60);
+    --icon-color:rgba(71, 71, 71, 0.9);
+    --style-type:square;
+    --border-color:#000 solid 2px;
+    --divider-color:#000;
+    --list-style-image1:none;
+    --list-style-image2:none;
+	--home-bg:#000;
+}
+
+
+body{
+    background-color:var(--bg-color);
+}
+
+.back-home{
+	background:var(--home-bg);
+	color:#fff;
+	padding: 5px;
+}
+
+.resume-body{
+	background-color:var(--resume-background);
+	margin-top:5% ;
+	min-height:1123px;	
+}
+
+.resume-body h1,h2,h3,h4.h5,h6{
+	color:var(--resume-header);
+	font-family:'Playfair Display', serif;
+    /* font-family: "Montserrat", sans-serif;  */
+}
+
+.resume-body h2{
+	font-size:35px;
+}
+
+.resume-body p{
+    font-size: 18px;
+	letter-spacing:0.5px;
+	color:var(--resume-color);
+	word-spacing:1.5px;
+	line-height:25px;
+	width:95%;
+}
+
+.resume-body a{
+	text-decoration: none;
+}
+
+.resume-body i{
+	color:var(--icon-color);
+}
+
+.bh{
+	padding-top:20px;
+}
+
+.social-links{
+	padding-top:20px;
+	padding-right:30px;
+	text-align: right;
+	font-size: 18px;
+	display:flex;
+	justify-content:flex-end;
+}
+
+.social-links a{
+	text-decoration: none;
+	display: inline-block;
+	color:var(--resume-color) !important;
+	margin-left:20px;
+}
+
+.social-links i{
+	font-size:18px;
+}
+
+.themes{
+	margin-right:60px;
+	background-color:#f0f0f0;
+	border: #0D0D0D solid 2px;
+	width:80px;
+	height:30px;
+	border-radius:30%;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+.themes span{
+	display: block;
+	cursor: pointer;
+}
+
+#rainbow-circle i {
+	background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	font-size:22px !important;
+	padding:5px 0px;
+}
+
+#black-white-circle i {
+	background: linear-gradient(90deg, black 50%, white 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	font-size:22px !important;
+	padding:5px 0px;
+}
+  
+
+
+.content-body{
+	margin-top:30px;
+	margin-left:3%;
+	
+}
+
+.profile-img{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	overflow: hidden;
+	border:var(--border-color);
+}
+
+.profile-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.contact-info{
+	margin-top:20px;
+}
+
+.contact-info h2{
+	padding-bottom:10px;
+}
+
+.contact-info i{
+	font-size:16px;
+	padding-right:6px;
+	transition:color 0.3s ease-in-out;
+}
+
+.contact-info i:hover{
+	color:#006D77;
+}
+
+.contact-info a{
+    color:blue;
+}
+
+.contact-info a i{
+	font-size: 25px;
+	padding-right:10%;
+}
+
+.skills-info{
+	margin-top:50px;
+}
+
+.skills-info p{
+	color:rgba(71, 71, 71, 1.60);
+	font-weight: bold;
+	font-size:17px;
+}
+
+.personal-sumary h1{
+	margin-top:30px;
+	font-size:45px;
+}
+
+.personal-sumary p{
+	padding-top:40px;
+	padding-bottom:2%;
+}
+
+.divider{
+	padding-bottom:2%;
+	color:var(--divider-color);
+}
+
+.education{
+	margin-top:2.5%;
+}
+
+.education ul li, .skills-info ul li{
+	line-height:30px;
+	list-style:var(--style-type);
+	list-style-image:var(--list-style-image1);
+	color:var(--resume-color);
+}
+
+.sub-ul li{
+	list-style-image: var(--list-style-image2) !important;
+}
+
+.education ul li strong{
+	font-size:17px;
+}
+
+.certification, .experience, .projects, .refs{
+	margin-top:10px;
+}
+
+.projects h4{
+    margin-top:20px;
+	color:rgba(71, 71, 71, 1.60);
+	font-size:28px;
+}
+
+.projects a{
+    color:blue;
+}
+
+.ref-body{
+	display:flex;
+}
+
+.ref-body div{
+	width:43%
+}
+
+.download-link{
+	padding-top:30px;
+	text-align: center;
+	padding-bottom:20px;
+	
+}
+
+.download-link a{
+	display: inline-block;
+	padding:5px 20px;
+	background-color:var(--resume-header);
+	color:#fff;
+	font-size:18px;
+}
+
+.download-link a:hover{
+	background-color:#009A9E;
+}
