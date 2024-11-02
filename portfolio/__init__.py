@@ -10,6 +10,12 @@ def create_app():
     app=Flask(__name__, instance_relative_config=True)
 
     app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
+    app.config['MAIL_SERVER'] = os.environ.get('MAIL_SERVER')
+    app.config['MAIL_PORT'] = os.environ.get('MAIL_PORT')
+    app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME')
+    app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD')
+    app.config['MAIL_USE_TLS'] = os.environ.get('MAIL_USE_TLS', 'true') == 'true'
+    app.config['MAIL_USE_SSL'] = os.environ.get('MAIL_USE_SSL', 'false') == 'true'
 
     app.config.from_pyfile('config.py', silent=True)
 
